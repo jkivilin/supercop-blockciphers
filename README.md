@@ -1,7 +1,7 @@
 supercop-blockciphers
 =====================
 
-Fast block cipher implementations (x86-64) in counter-mode for SUPERCOP cryptographic benchmarking framework. Artifacts of implementation/integration part of Master's thesis "Block Ciphers: Fast Implementations on x86-64 Architecture".
+This repository contains fast block cipher implementations (for x86-64) in counter-mode for the SUPERCOP cryptographic benchmarking framework. These are the artifacts of the implementation/integration part of my Master's Thesis "Block Ciphers: Fast Implementations on x86-64 Architecture". Fulltext is available at: http://koti.mbnet.fi/axh/mastersthesis/
 
 SUPERCOP: http://bench.cr.yp.to/supercop.html
 
