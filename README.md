@@ -19,3 +19,4 @@ This branch contains new implementations, that were not included in Master's The
 New implementations so far:
  - Camellia AES-NI/AVX2
  - Serpent AVX2 (by Johannes Götzfried)
+ - Twofish AVX2 (using vpgatherdd)
