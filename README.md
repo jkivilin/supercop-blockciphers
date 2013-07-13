@@ -21,3 +21,4 @@ New implementations so far:
  - Serpent AVX2 (by Johannes Götzfried)
  - Twofish AVX2 (using vpgatherdd)
  - Twofish AVX2 (without vpgatherdd, based on AVX impl.)
+ - Blowfish AVX2 (using vpgatherdd)
