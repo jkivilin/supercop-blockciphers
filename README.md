@@ -10,3 +10,12 @@ Installation: Copy contents of crypto_stream/ of this repository to crypto_strea
 Licensing note: Some implementations contain GPLv2 licensed code, while other are mix of permissive licenses (ISC, new BSD, MIT, public-domain).
 
 -Jussi Kivilinna
+
+beyond_master branch
+====================
+
+This branch contains new implementations, that were not included in Master's Thesis.
+
+New implementations so far:
+ - Camellia AES-NI/AVX2
+ - Serpent AVX2 (by Johannes Götzfried)
