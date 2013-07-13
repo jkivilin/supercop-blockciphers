@@ -20,3 +20,4 @@ New implementations so far:
  - Camellia AES-NI/AVX2
  - Serpent AVX2 (by Johannes Götzfried)
  - Twofish AVX2 (using vpgatherdd)
+ - Twofish AVX2 (without vpgatherdd, based on AVX impl.)
