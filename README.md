@@ -23,7 +23,7 @@ New implementations so far:
  - Twofish AVX2 (without vpgatherdd, based on AVX impl.)
  - Blowfish AVX2 (using vpgatherdd)
 
-Results on Intel i5-4570 (haswell):
+Results on Intel Core i5-4570 (haswell, cpuid: 306C3h):
 
  - Blowfish
    + Improved 16-way word-sliced with table look-ups (AVX): 8.11 cycles/byte
