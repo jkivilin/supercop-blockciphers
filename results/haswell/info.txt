@@ -1,0 +1,400 @@
+=== Sat Jul 13 22:02:49 EEST 2013 === starting data-init
+=== Sat Jul 13 22:02:49 EEST 2013 === building machineinfo
+=== Sat Jul 13 22:02:49 EEST 2013 === hostname
+haswell
+=== Sat Jul 13 22:02:49 EEST 2013 === uname -a
+Linux haswell 3.10.0-jk20130712-id0051 #1 SMP PREEMPT Fri Jul 12 00:54:00 EEST 2013 x86_64 x86_64 x86_64 GNU/Linux
+=== Sat Jul 13 22:02:49 EEST 2013 === uname -M
+uname: invalid option -- 'M'
+Try 'uname --help' for more information.
+=== Sat Jul 13 22:02:49 EEST 2013 === uname -F
+uname: invalid option -- 'F'
+Try 'uname --help' for more information.
+=== Sat Jul 13 22:02:49 EEST 2013 === /usr/sbin/lscfg | grep proc
+do: 14: do: /usr/sbin/lscfg: not found
+=== Sat Jul 13 22:02:49 EEST 2013 === /usr/sbin/lsattr -El proc0
+do: 16: do: /usr/sbin/lsattr: not found
+=== Sat Jul 13 22:02:49 EEST 2013 === cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+stepping	: 3
+microcode	: 0x7
+cpu MHz		: 3201.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 6398.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+stepping	: 3
+microcode	: 0x7
+cpu MHz		: 3201.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 6398.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+stepping	: 3
+microcode	: 0x7
+cpu MHz		: 3201.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 6398.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+stepping	: 3
+microcode	: 0x7
+cpu MHz		: 3201.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm
+bogomips	: 6398.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/topology/physical_package_id
+/sys/devices/system/cpu/cpu0/topology/physical_package_id:0
+/sys/devices/system/cpu/cpu1/topology/physical_package_id:0
+/sys/devices/system/cpu/cpu2/topology/physical_package_id:0
+/sys/devices/system/cpu/cpu3/topology/physical_package_id:0
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/topology/core_id
+/sys/devices/system/cpu/cpu0/topology/core_id:0
+/sys/devices/system/cpu/cpu1/topology/core_id:1
+/sys/devices/system/cpu/cpu2/topology/core_id:2
+/sys/devices/system/cpu/cpu3/topology/core_id:3
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/topology/thread_siblings_list
+/sys/devices/system/cpu/cpu0/topology/thread_siblings_list:0
+/sys/devices/system/cpu/cpu1/topology/thread_siblings_list:1
+/sys/devices/system/cpu/cpu2/topology/thread_siblings_list:2
+/sys/devices/system/cpu/cpu3/topology/thread_siblings_list:3
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/online
+/sys/devices/system/cpu/cpu1/online:1
+/sys/devices/system/cpu/cpu2/online:1
+/sys/devices/system/cpu/cpu3/online:1
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_min_freq
+/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq:800000
+/sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_min_freq:800000
+/sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_min_freq:800000
+/sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_min_freq:800000
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_max_freq
+/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq:3201000
+/sys/devices/system/cpu/cpu1/cpufreq/cpuinfo_max_freq:3201000
+/sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_max_freq:3201000
+/sys/devices/system/cpu/cpu3/cpufreq/cpuinfo_max_freq:3201000
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor:performance
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_governor:performance
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_governor:performance
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_governor:performance
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/scaling_setspeed
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed:<unsupported>
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_setspeed:<unsupported>
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_setspeed:<unsupported>
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_setspeed:<unsupported>
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:3201000
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:3201000
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:3201000
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:3201000
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/cpufreq/cpb
+grep: /sys/devices/system/cpu/cpu*/cpufreq/cpb: No such file or directory
+=== Sat Jul 13 22:02:49 EEST 2013 === grep . /dev/null /sys/devices/system/cpu/cpu*/clock_tick
+grep: /sys/devices/system/cpu/cpu*/clock_tick: No such file or directory
+=== Sat Jul 13 22:02:49 EEST 2013 === sysctl hw.model
+sysctl: cannot stat /proc/sys/hw/model: No such file or directory
+=== Sat Jul 13 22:02:49 EEST 2013 === sysctl machdep.tsc_freq
+sysctl: cannot stat /proc/sys/machdep/tsc_freq: No such file or directory
+=== Sat Jul 13 22:02:49 EEST 2013 === /usr/sbin/psrinfo -v
+do: 48: do: /usr/sbin/psrinfo: not found
+=== Sat Jul 13 22:02:49 EEST 2013 === building scripts
+=== Sat Jul 13 22:02:49 EEST 2013 === building okcompilers
+=== Sat Jul 13 22:02:49 EEST 2013 === checking gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:49 EEST 2013 === success: gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer is ok
+=== Sat Jul 13 22:02:49 EEST 2013 === checking g++ -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:49 EEST 2013 === success: g++ -m64 -march=native -mtune=native -O2 -fomit-frame-pointer is ok
+=== Sat Jul 13 22:02:49 EEST 2013 === checking compatibility with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:49 EEST 2013 === checking gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:49 EEST 2013 === success: gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer is compatible
+=== Sat Jul 13 22:02:49 EEST 2013 === checking compatibility with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:49 EEST 2013 === checking g++ -m64 -march=native -mtune=native -O2 -fomit-frame-pointer
+=== Sat Jul 13 22:02:50 EEST 2013 === success: g++ -m64 -march=native -mtune=native -O2 -fomit-frame-pointer is compatible
+=== Sat Jul 13 22:02:50 EEST 2013 === checking -lm
+=== Sat Jul 13 22:02:50 EEST 2013 === checking -lnsl
+=== Sat Jul 13 22:02:50 EEST 2013 === checking -lsocket
+/usr/bin/ld: cannot find -lsocket
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+=== Sat Jul 13 22:02:50 EEST 2013 === checking -lcrypto
+=== Sat Jul 13 22:02:50 EEST 2013 === checking archiver ar
+=== Sat Jul 13 22:02:50 EEST 2013 === success: archiver ar is ok
+=== Sat Jul 13 22:02:50 EEST 2013 === building basic dependencies
+=== Sat Jul 13 22:02:50 EEST 2013 === cleaning up BUILD in amd64
+=== Sat Jul 13 22:02:50 EEST 2013 === cleaning up LOCKED in amd64
+=== Sat Jul 13 22:02:50 EEST 2013 === cleaning up LOCK in amd64
+=== Sat Jul 13 22:02:50 EEST 2013 === building killafter
+=== Sat Jul 13 22:02:50 EEST 2013 === Trying pg.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === building sinceepoch
+=== Sat Jul 13 22:02:50 EEST 2013 === Trying time.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === building checksum
+=== Sat Jul 13 22:02:50 EEST 2013 === Trying sha256.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === building baseinclude
+=== Sat Jul 13 22:02:50 EEST 2013 === building cpuid
+=== Sat Jul 13 22:02:50 EEST 2013 === Trying x86.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+GenuineIntel-000306c3-bfebfbff
+=== Sat Jul 13 22:02:50 EEST 2013 === building inttypes
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying signed char as int8 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying short as int16 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying int as int32 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying long as int32 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying long long as int64 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying long as int64 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying int __attribute__((__mode__(__DI__))) as int64 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying unsigned char as uint8 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying unsigned short as uint16 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying unsigned int as uint32 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === amd64 trying unsigned long long as uint64 under gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+=== Sat Jul 13 22:02:50 EEST 2013 === building cpucycles
+=== Sat Jul 13 22:02:50 EEST 2013 === Trying amd64tscfreq.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+cpucycles-impl.o: In function `cpucycles_amd64tscfreq_persecond':
+cpucycles-impl.c:(.text+0x3a): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+=== Sat Jul 13 22:02:51 EEST 2013 === Trying amd64cpuinfo.c with gcc -m64 -march=native -mtune=native -O2 -fomit-frame-pointer...
+amd64cpuinfo 3201000000 3196468018 68 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24
+=== Sat Jul 13 22:02:51 EEST 2013 === Success. Using amd64cpuinfo.c.
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/compiler/c/gcc_-m64_-march=native_-mtune=native_-O2_-fomit-frame-pointer
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/compiler/cpp/g++_-m64_-march=native_-mtune=native_-O2_-fomit-frame-pointer
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_verify/16/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_verify/16/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_verify/16
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_verify/32/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_verify/32/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_verify/32
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_verify/8/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_verify/8/ref
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_verify/8
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/amd64-1way-3kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/amd64-1way-3kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/amd64-1way-8kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/amd64-1way-8kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/amd64-2way-3kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/amd64-2way-3kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/amd64-2way-8kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/amd64-2way-8kbtables
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/avx
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/avx
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === skipping amd64/implementation/crypto_stream/aes128ctr/neon
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128ctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128ctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/aes128ctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/amd64-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/amd64-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/amd64-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/amd64-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/big-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/big-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/little-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/little-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/little-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/little-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/little-3
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/little-3
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/bernstein/little-4
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/bernstein/little-4
+=== Sat Jul 13 22:02:51 EEST 2013 === skipping amd64/implementation/crypto_stream/aes128estream/e/bernstein/x86-mmx-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/gladman
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/gladman
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/hongjun/v0
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/hongjun/v0
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/hongjun/v1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/hongjun/v1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/schwabe/athlon64-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/schwabe/athlon64-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/schwabe/athlon64-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/schwabe/athlon64-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/e/schwabe/core2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/e/schwabe/core2
+=== Sat Jul 13 22:02:51 EEST 2013 === skipping amd64/implementation/crypto_stream/aes128estream/e/schwabe/pentium4-1
+=== Sat Jul 13 22:02:51 EEST 2013 === skipping amd64/implementation/crypto_stream/aes128estream/e/schwabe/ppc32linux-1
+=== Sat Jul 13 22:02:51 EEST 2013 === skipping amd64/implementation/crypto_stream/aes128estream/e/schwabe/ultrasparc3-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes128estream/ssse3
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes128estream/ssse3
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/aes128estream
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/aes192ctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/aes256ctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes256estream/e/gladman
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes256estream/e/gladman
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes256estream/e/hongjun/v0
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes256estream/e/hongjun/v0
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/aes256estream/e/hongjun/v1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/aes256estream/e/hongjun/v1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/aes256estream
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/amd64-1way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/amd64-1way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/amd64-1way-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/amd64-1way-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/amd64-4way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/amd64-4way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/avx-16way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/avx-16way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/avx-16way-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/avx-16way-2
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/avx2-32way-vpgatherdd
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/avx2-32way-vpgatherdd
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/blowfishctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/blowfishctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/blowfishctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/aesni-avx-16way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/aesni-avx-16way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/aesni-avx2-32way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/aesni-avx2-32way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/amd64-1way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/amd64-1way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/amd64-2way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/amd64-2way
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/cryptopp
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/camellia128ctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/camellia128ctr/openssl
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/camellia128ctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/integrate/crypto_stream/camellia256ctr
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/serpent128ctr/avx-8way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/serpent128ctr/avx-8way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/implementation/crypto_stream/serpent128ctr/avx2-16way-1
+=== Sat Jul 13 22:02:51 EEST 2013 === todo amd64/try/.../crypto_stream/serpent128ctr/avx2-16way-1
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/serpent128ctr/cryptopp
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/serpent128ctr/cryptopp
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/serpent128ctr/linux_c
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/serpent128ctr/linux_c
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/serpent128ctr/sse2-8way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/serpent128ctr/sse2-8way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/integrate/crypto_stream/serpent128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/amd64-1way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/amd64-1way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/amd64-2way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/amd64-2way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/amd64-3way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/amd64-3way
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/avx-8way-1
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/avx-8way-1
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/avx-8way-2
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/avx-8way-2
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/avx2-16way-1-vpgatherdd
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/avx2-16way-1-vpgatherdd
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/avx2-16way-2
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/avx2-16way-2
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/cryptopp
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/cryptopp
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/implementation/crypto_stream/twofish128ctr/linux_amd64
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/try/.../crypto_stream/twofish128ctr/linux_amd64
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/integrate/crypto_stream/twofish128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_verify/16
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_verify/32
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_verify/8
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_verify/16
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_verify/32
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_verify/8
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_verify/16
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_verify/32
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_verify/8
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/aes128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/aes128estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/aes192ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/aes256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/aes256estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/blowfishctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/camellia128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/camellia256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/serpent128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure1/crypto_stream/twofish128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/aes128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/aes128estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/aes192ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/aes256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/aes256estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/blowfishctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/camellia128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/camellia256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/serpent128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure2/crypto_stream/twofish128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/aes128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/aes128estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/aes192ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/aes256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/aes256estream
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/blowfishctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/camellia128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/camellia256ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/serpent128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === todo amd64/measure3/crypto_stream/twofish128ctr
+=== Sat Jul 13 22:02:52 EEST 2013 === ending data-init
