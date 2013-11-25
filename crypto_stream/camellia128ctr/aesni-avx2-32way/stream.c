@@ -89,10 +89,10 @@ int crypto_stream_xor(unsigned char *out, const unsigned char *in,
 	CTX_TYPE *ctx = PTR_ALIGN(ctxbuf, align - 1);
 	uint128_t iv;
 
+	__asm__ volatile ("vzeroupper; \n" :::);
+
 	camellia_init(ctx, k, CRYPTO_KEYBYTES);
 	bswap128(&iv, (const uint128_t *)n); /* be => le */
-
-	__asm__ volatile ("vzeroupper; \n" :::);
 
 	if (likely(inlen >= PARALLEL_BLOCKS * BLOCKSIZE)) {
 		unsigned long chunks = inlen / (PARALLEL_BLOCKS * BLOCKSIZE);

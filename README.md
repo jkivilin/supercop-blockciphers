@@ -40,8 +40,8 @@ Results on Intel Core i5-4570 (haswell, cpuid: 306C3h):
    + 2-way table look-up: 7.85 cycles/byte
    + 1-way table look-up: 10.87 cycles/byte
  - Camellia
-   + 32-way byte-sliced with (AVX2 & AES-NI): 3.74 cycles/byte
-   + 16-way byte-sliced with (AVX & AES-NI): 5.92 cycles/byte
+   + 32-way byte-sliced with (AVX2 & AES-NI): 3.72 cycles/byte
+   + 16-way byte-sliced with (AVX & AES-NI): 5.93 cycles/byte
    + 2-way table look-up: 10.37 cycles/byte
    + 1-way table look-up: 16.72 cycles/byte
    + OpenSSL: 18.91 cycles/byte
