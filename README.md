@@ -61,3 +61,18 @@ Results on Intel Core i5-4570 (haswell, cpuid: 306C3h):
    + Assembly impl. from Linux kernel: 16.85 cycles/byte
    + Crypto++: 18.10 cycles/byte
    + 1-way table look-up: 18.71 cycles/byte
+
+Results on Intel Core i3-6100 (skylake, measured in 'bench-slope' tool of libgcrypt):
+ - Blowfish
+   + 32-way word-sliced (AVX2, vpgatherdd): 5.41 cycles/byte
+   + 4-way table look-up (libgcrypt impl.): 7.91 cycles/byte
+ - AES
+   + libgcrypt (AES-NI): 0.63 cycles/byte
+ - Camellia
+   + 32-way byte-sliced with (AVX2 & AES-NI, libgcrypt impl.): 3.12 cycles/byte
+ - Serpent
+   + 16-way word-sliced (AVX2, libgcrypt impl.): 4.77 cycles/byte
+ - Twofish
+   + 16-way word-sliced (AVX2, vpgatherdd): 6.40 cycles/byte
+   + 3-way table look-up (libgcrypt impl.): 10.1 cycles/byte
+   
